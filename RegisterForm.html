@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Реєстрація інвентаря</title>
+</head>
+<body>
+  <h1>Реєстрація нового пристрою</h1>
+
+  <!-- ФОРМА РЕЄСТРАЦІЇ -->
+  <!-- method="POST" + enctype="multipart/form-data" + action="/register" -->
+  <form action="/register" method="POST" enctype="multipart/form-data">
+    <div>
+      <label for="inventory_name">Назва пристрою (обов'язково):</label><br>
+      <input type="text" id="inventory_name" name="inventory_name" required>
+    </div>
+
+    <div>
+      <label for="description">Опис:</label><br>
+      <textarea id="description" name="description" rows="4" cols="40"></textarea>
+    </div>
+
+    <div>
+      <label for="photo">Фото (image/jpeg):</label><br>
+      <input type="file" id="photo" name="photo" accept="image/*">
+    </div>
+
+    <div>
+      <button type="submit">Зареєструвати</button>
+    </div>
+  </form>
+</body>
+</html>
