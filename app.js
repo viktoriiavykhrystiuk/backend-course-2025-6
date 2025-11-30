@@ -31,7 +31,7 @@ const INVENTORY_FILE = path.join(CACHE_DIR, 'inventory.json');
 const PHOTOS_DIR = path.join(CACHE_DIR, 'photos');
 
 // -----------------------------
-// 2. Дані в памʼяті + утиліти
+// 2. Дані в памʼяті + 
 // -----------------------------
 /**
  * Структура елемента інвентаря:
